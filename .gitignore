@@ -1,0 +1,38 @@
+### dependencies
+**/node_modules/
+
+### build output
+**/dist/
+**/build/
+**/.vercel/
+
+### logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### env files (never commit secrets)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+
+### firebase / service account key files (never commit)
+**/*serviceAccount*.json
+**/*firebase*key*.json
+**/*firebase-adminsdk*.json
+**/*gcp*.json
+**/*.pem
+**/*.p12
+**/*.key
+**/*.crt
+
+### OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
